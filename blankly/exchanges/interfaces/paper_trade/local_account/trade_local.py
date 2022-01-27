@@ -84,7 +84,7 @@ class LocalAccount:
              BTC-USD)
         """
         # Nobody knows what's happening if it's shorting
-        if shortable:
+        if True:
             base_asset = utils.get_base_asset(currency_pair)
             quote_asset = utils.get_quote_asset(currency_pair)
             base_account = self.local_account[base_asset]
